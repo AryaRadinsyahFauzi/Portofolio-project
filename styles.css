@@ -78,12 +78,13 @@ body {
 
 .home-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
 }
 
 .profile-section img{
     border: 2px solid #C69749;
+    box-shadow: 0 0 10px #C69749;
     border-radius: 50%;
 }
 
@@ -97,4 +98,8 @@ body {
 
 .home-section h1, h3{
     color:#C69749;
+}
+
+.home-section h1{
+    font-size: 2.5rem;
 }

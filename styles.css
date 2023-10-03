@@ -80,22 +80,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-        padding: 1rem 10%;
-        background: #111;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
 
     .burger {
         display: block;
         cursor: pointer;
+        margin-left: 10rem;
     }
 
     .burger .line {

@@ -226,7 +226,7 @@ about me section start
 
 .aboutme-container{
     background-color: #171717;
-    
+    width: 67rem;
     padding: 30px;
     border-radius: 20px;
 }

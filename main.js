@@ -8,7 +8,7 @@ burger.onclick = function() {
 
 
 const mengetik = new Typed(".typing", {
-    strings: ["Welcome to My portofolio website. "],
+    strings: ["Welcome to My portofolio website. 👋 "],
     typeSpeed: 50,
     backSpeed: 10,
     loop: false,

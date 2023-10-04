@@ -22,3 +22,4 @@ const ngetik = new Typed(".type" , {
     loop: true,
     showCursor: false,
 });
+

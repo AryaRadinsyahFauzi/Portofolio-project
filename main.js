@@ -14,3 +14,11 @@ const mengetik = new Typed(".typing", {
     loop: false,
     showCursor: false,
 });
+
+const ngetik = new Typed(".type" , {
+    strings: ["Software Engineer", "Data Analytic"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true,
+    showCursor: false,
+});

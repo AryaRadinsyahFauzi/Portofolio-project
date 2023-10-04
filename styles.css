@@ -161,6 +161,18 @@ home section start
     color: #fff;
 }
 
+.type{
+    font-size: 20px;
+    display: flex;
+    
+}
+
+.h3type{
+    border: 1px solid #111;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
 .home-section P,
 h1,
 h3 {

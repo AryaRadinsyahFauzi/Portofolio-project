@@ -1,6 +1,24 @@
 
+
+
+// img home start
+document.addEventListener("DOMContentLoaded", function () {
+    var imgHome = document.getElementById("imgHomeUbah");
+    imgHome.classList.add("tampil");
+  });
+// img home end
+
+document.addEventListener("DOMContentLoaded", function () {
+    var imgHome = document.getElementById("navbar");
+    imgHome.classList.add("muncul");
+  });
+
+
+
+// about me start
 window.addEventListener('scroll', hidden);
 function hidden() {
+    
     var hiddens = document.querySelectorAll('#hidden');
 
     for(var i=0; i < hiddens.length; i++){
@@ -13,8 +31,8 @@ function hidden() {
             hiddens[i].classList.add('active');
         } 
         // else{
-        //     reveals[i].classList.remove('active');
-        //  }
-    }
-}
-
+        //     hiddens[i].classList.remove('active');
+        //  };
+    };
+};
+// about me end

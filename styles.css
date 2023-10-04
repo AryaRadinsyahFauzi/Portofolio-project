@@ -142,8 +142,9 @@ scrollbar end
 #navbar.muncul {
     opacity: 1;
     transform: translateY(0px);
-
 }
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -222,7 +223,7 @@ home section start
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
     align-items: center;
 }
 

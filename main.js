@@ -16,7 +16,7 @@ const mengetik = new Typed(".typing", {
 });
 
 const ngetik = new Typed(".type" , {
-    strings: ["Software Engineer", "Data Analytic"],
+    strings: ["Software Engineer", "Data Analyst"],
     typeSpeed: 100,
     backSpeed: 50,
     loop: true,

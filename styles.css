@@ -38,6 +38,28 @@ scrollbar start
     background: #555;
   }
 
+
+  @media only screen and (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #C69749;
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+  }
 /*.....................................................
 scrollbar end
 .......................................................*/

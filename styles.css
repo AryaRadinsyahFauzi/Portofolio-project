@@ -15,7 +15,32 @@ body {
     height: 200vh;
 }
 
+/*.....................................................
+scrollbar start
+.......................................................*/
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C69749;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
+/*.....................................................
+scrollbar end
+.......................................................*/
 
 .navbar-container {
     display: flex;

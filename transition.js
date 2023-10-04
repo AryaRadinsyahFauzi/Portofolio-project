@@ -30,9 +30,9 @@ function hidden() {
         if(hiddentop < windowheight - hiddenpoint){
             hiddens[i].classList.add('active');
         } 
-        // else{
-        //     hiddens[i].classList.remove('active');
-        //  };
+        else{
+            hiddens[i].classList.remove('active');
+         };
     };
 };
 // about me end

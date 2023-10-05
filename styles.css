@@ -343,6 +343,7 @@ about me section start
 
 .about-me h1 {
     margin-right: 1em;
+    color: #fff;
 }
 
 .garis {
@@ -430,7 +431,7 @@ about me section start
 @media only screen and (max-width: 768px) {
     .aboutme-container {
         width: 20rem;
-        
+
     }
 
     .img-article {
@@ -454,3 +455,241 @@ about me section start
 /*.....................................................
 about me section end
 .......................................................*/
+
+/*.....................................................
+Skills
+.......................................................*/
+.skills-container {
+    margin-top: 30px;
+}
+
+.skills-judul {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.tools-techStack {
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* garis start */
+.line-tools {
+    display: flex;
+    justify-content: center;
+}
+
+.line-kiri {
+    width: 100px;
+    height: 3px;
+    background-color: #C69749;
+    margin-top: 250px;
+}
+
+.line-tengah {
+    width: 3px;
+    height: 400px;
+    background-color: #C69749;
+}
+
+.line-kanan {
+    width: 100px;
+    height: 3px;
+    background-color: #C69749;
+    margin-top: 100px;
+}
+
+/* garis end */
+
+.tools {
+    background-color: #171717;
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-right: 5px;
+    margin-left: 10%;
+    padding: 20px;
+}
+
+.tools h2 {
+    color: #C69749;
+    margin-bottom: 10px;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.github {
+    width: 140px;;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-github {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.npm {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.fa-npm {
+    margin-right: 10px;
+    color: #C12127;
+}
+
+
+.Git {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.fa-git-alt {
+    margin-right: 10px;
+    color: #F1502F;
+}
+
+/* transition tools */
+.tools {
+    position: relative;
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: all 1s;
+}
+
+.tools.toolsLeftSide {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+/* transition tools */
+
+.techStack {
+    background-color: #171717;
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.techStack h2 {
+    color: #C69749;
+    margin-bottom: 10px;
+}
+
+.techStack-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.html-icon {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-html5 {
+    margin-right: 10px;
+    color: #F1662A;
+}
+
+.css-icon {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-css3-alt {
+    margin-right: 10px;
+    color: #0076B2;
+}
+
+.js-icon {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-square-js {
+    margin-right: 10px;
+    color: #F7DF1E;
+}
+
+.node-icon {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-node-js {
+    margin-right: 10px;
+    color: #83CD29;
+}
+
+.react-icon {
+    width: 140px;
+    border: 1px solid #C69749;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-react {
+    margin-right: 10px;
+    color: #61DBFB;
+}
+/* transition tech stack */
+.techStack {
+    position: relative;
+    opacity: 0;
+    transform: translateX(150px);
+    transition: all 1s;
+}
+
+.techStack.techStackRightSide {
+    opacity: 1;
+    transform: translateX(0px);
+
+}
+/* transition tech stack */

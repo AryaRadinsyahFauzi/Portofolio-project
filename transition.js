@@ -64,3 +64,50 @@ function hidden() {
 /*.....................................................
 transisi about section
 .......................................................*/
+
+/*.....................................................
+transisi skills
+.......................................................*/
+window.addEventListener('scroll', hidden3);
+function hidden3() {
+    
+    var hiddens = document.querySelectorAll('.tools');
+
+    for(var i=0; i < hiddens.length; i++){
+
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
+
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('toolsLeftSide');
+        } 
+        else{
+            hiddens[i].classList.remove('toolsLeftSide');
+         };
+    };
+};
+
+// tech stack
+window.addEventListener('scroll', hidden4);
+function hidden4() {
+    
+    var hiddens = document.querySelectorAll('.techStack');
+
+    for(var i=0; i < hiddens.length; i++){
+
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
+
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('techStackRightSide');
+        } 
+        else{
+            hiddens[i].classList.remove('techStackRightSide');
+         };
+    };
+};
+/*.....................................................
+transisi skills
+.......................................................*/

@@ -113,24 +113,17 @@ scrollbar end
     font-size: 1.2rem;
 }
 
-.navbar-section li:hover a {
+nav a:hover,
+nav a.nyala{
     color: #C69749;
 }
 
-.navbar-section a:active {
-    color: #C69749;
+section{
+    min-height: 100vh;
 }
 
-.navbar-section li::after {
-    content: "";
-    display: block;
-    border-bottom: 3px solid #C69749;
-    transform: scaleX(0);
-}
-
-.navbar-section li:hover::after {
-    transform: scaleX(0.5);
-    transition: 0.2s linear;
+section:nth-child(odd) {
+    background-color: #111;
 }
 
 #navbar {

@@ -20,11 +20,13 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /*.....................................................
 scrollbar start
 .......................................................*/
 ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
 }
 
 /* Track */
@@ -44,7 +46,7 @@ scrollbar start
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 968px) {
     ::-webkit-scrollbar {
         width: 5px;
     }
@@ -70,6 +72,10 @@ scrollbar start
 scrollbar end
 .......................................................*/
 
+
+/*.....................................................
+navbar start
+.......................................................*/
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -103,28 +109,28 @@ scrollbar end
 
 .navbar-section ul li {
     margin: 0 1rem;
-    color: #fff;
+
 
 }
 
 .navbar-section li a {
-    color: #555;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-nav a:hover,
-nav a.nyala{
+.nav-link {
+    color: #555
+}
+
+.nav-link:hover {
     color: #C69749;
 }
 
-section{
-    min-height: 100vh;
+.nyala {
+    transition: all 1s;
+    color: #C69749;
 }
 
-section:nth-child(odd) {
-    background-color: #111;
-}
 
 #navbar {
     opacity: 0;
@@ -200,8 +206,9 @@ section:nth-child(odd) {
     }
 }
 
-
-/* navbar section end */
+/*.....................................................
+navbar end
+.......................................................*/
 
 
 /*.....................................................
@@ -209,15 +216,16 @@ home section start
 .......................................................*/
 
 .home-container {
-    padding: 150px;
+    padding-top: 150px;
 }
 
 .home-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .profile-section img {
@@ -233,7 +241,7 @@ home section start
 .type {
     font-size: 20px;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .h3type {
@@ -307,7 +315,7 @@ home section end
 about me section start
 .......................................................*/
 
-#About {
+#about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,6 +327,8 @@ about me section start
     width: 67rem;
     padding: 30px;
     border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .judul-about {
@@ -391,22 +401,36 @@ about me section start
 }
 
 /* transition */
-#hidden {
+.namaSaya {
+    position: relative;
+    opacity: 0;
+    transform: translateX(150px);
+    transition: all 1s;
+}
+
+.namaSaya.active {
+    opacity: 1;
+    transform: translateX(0px);
+
+}
+
+.profile-section2 {
     position: relative;
     opacity: 0;
     transform: translateX(-150px);
     transition: all 1s;
 }
 
-#hidden.active {
+.profile-section2.poto {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
 
 }
 
 @media only screen and (max-width: 768px) {
     .aboutme-container {
         width: 20rem;
+        
     }
 
     .img-article {

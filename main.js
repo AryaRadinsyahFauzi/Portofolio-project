@@ -1,9 +1,45 @@
+/*.....................................................
+membuat navbar aktif
+.......................................................*/
+const navLinkEls = document.querySelectorAll('.nav-link');
+const sectionEls = document.querySelectorAll('section');
+
+let currentSection = 'Home';
+window.addEventListener('scroll', () => {
+    sectionEls.forEach(sectionEl => {
+        if(window.scrollY >= (sectionEl.offsetTop - 200)) {
+            currentSection = sectionEl.id;
+        }
+    });
+
+    navLinkEls.forEach(navLinkEl => {
+        if(navLinkEl.href.includes(currentSection)) {
+            document.querySelector('.nyala').classList.remove('nyala');
+            navLinkEl.classList.add('nyala');
+        }
+    });
+});
+
+/*.....................................................
+membuat navbar aktif end
+.......................................................*/
+
+
+/*.....................................................
+membuat hamburger navbar
+.......................................................*/
 burger = document.querySelector(".burger");
 burger.onclick = function () {
     navbar = document.querySelector(".navbar-section")
     navbar.classList.toggle("active")
 }
+/*.....................................................
+membuat hamburger navbar end
+.......................................................*/
 
+/*.....................................................
+typing animation (section home)
+.......................................................*/
 const ngetik = new Typed(".type", {
     strings: ["Software Engineer", "Data Analyst"],
     typeSpeed: 100,
@@ -19,23 +55,6 @@ const mengetik = new Typed(".typewriter", {
     loop: false,
     showCursor: false,
 });
-
-
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
-
-window.onscroll = () => {
-    sections.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
-
-        if (top >= offset && top < offset + height) {
-            navLinks.forEach(links => {
-                links.classList.remove('nyala');
-                document.querySelector('header nav a  [href*= '+ id +']').classList.add('nyala');
-            });
-        };
-    });
-};
+/*.....................................................
+typing animation (section home) end
+.......................................................*/

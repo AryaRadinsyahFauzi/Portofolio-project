@@ -11,13 +11,18 @@
 body {
     font-family: 'Inter';
     background-color: #111;
-    width: 100%;
     padding: 0;
     margin: 0;
 }
 
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    overflow-x: hidden;
 }
 
 
@@ -143,6 +148,12 @@ navbar start
     transform: translateY(0px);
 }
 
+@media only screen and (max-width: 1200px) {
+    .navbar-container {
+        width: 100%;
+        padding: 1rem 5%;
+    }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -169,7 +180,7 @@ navbar start
         top: 80px;
         left: 0;
         right: 0;
-        width: 100vw;
+        width: 100%;
 
         transition: 0.5s;
 
@@ -217,6 +228,7 @@ home section start
 
 .home-container {
     padding-top: 150px;
+    width: 100vw;
 }
 
 .home-container {
@@ -274,13 +286,48 @@ h3 {
     opacity: 1;
 }
 
+@media only screen and (max-width: 992px) {
+    .home-container{
+        padding-top: 150px;
+    }
+
+    .profile-section img {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .home-section h1 {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .home-container{
+        padding-top: 150px;
+    }   
+
+    .profile-section img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-section h1 {
+        font-size: 2rem;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .home-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 120px 50px 0;
+        padding: 150px 80px 0px 80px;
+        margin: 0;
     }
 
     .home-section {
@@ -327,8 +374,7 @@ about me section start
     width: 67rem;
     padding: 30px;
     border-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+
 }
 
 .judul-about {
@@ -428,10 +474,24 @@ about me section start
 
 }
 
+@media only screen and (max-width: 992px){
+    .aboutme-container{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .aboutme-container{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+
     .aboutme-container {
         width: 20rem;
-
     }
 
     .img-article {
@@ -447,10 +507,10 @@ about me section start
     }
 
     #aboutMe {
-        margin-top: 5rem;
-    }
+        margin-top: 1rem;
+    } 
 
-}
+ }
 
 /*.....................................................
 about me section end
@@ -526,7 +586,8 @@ Skills
 }
 
 .github {
-    width: 140px;;
+    width: 140px;
+    ;
     border: 1px solid #C69749;
     border-radius: 5px;
     margin-right: 10px;
@@ -583,6 +644,7 @@ Skills
     transform: translateX(0);
 
 }
+
 /* transition tools */
 
 .techStack {
@@ -679,6 +741,7 @@ Skills
     margin-right: 10px;
     color: #61DBFB;
 }
+
 /* transition tech stack */
 .techStack {
     position: relative;
@@ -692,4 +755,87 @@ Skills
     transform: translateX(0px);
 
 }
+
 /* transition tech stack */
+/* @media only screen and (max-width: 600px) {
+    .tools{
+        width: 400px;
+        height: 350px;
+    }
+
+    .techStack{
+        width: 400px;
+        height: 10px;;
+    }
+} */
+
+@media only screen and (min-width: 992px) {
+    .tools {
+        width: 400px;
+        height: 350px;
+    }
+
+    .techStack {
+        width: 400px;
+        height: 350px;
+        ;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tools {
+        width: 350px;
+        height: 300px;
+    }
+
+    .techStack {
+        width: 350px;
+        height: 350px;
+        ;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tools {
+        width: 300px;
+        height: 250px;
+        margin-left: 1%;
+    }
+
+    .techStack {
+        width: 300px;
+        height: 350px;
+        margin-right: 1%;
+    }
+
+    .techStack-container p {
+        font-size: 10px;
+    }
+
+    .tools-container p {
+        font-size: 10px;
+    }
+
+    .github,
+    .npm,
+    .Git {
+        width: 100px;
+    }
+
+    .html-icon,
+    .css-icon,
+    .js-icon,
+    .node-icon,
+    .react-icon {
+        width: 100px;
+
+    }
+
+    .line-kiri {
+        width: 20px;
+    }
+
+    .line-kanan {
+        width: 20px;
+    }
+}

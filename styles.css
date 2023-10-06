@@ -152,6 +152,9 @@ navbar start
 @media only screen and (max-width: 768px) {
     .navbar-container {
         width: 100%;
+        box-sizing: border-box;
+        outline: none;
+        overflow: 0;
     }
 
 
@@ -321,7 +324,7 @@ h3 {
     #home {
         box-sizing: border-box;
         outline: none;
-        overflow-x: hidden;
+        overflow-x: 0;
     }
 
     .home-container {
@@ -500,7 +503,7 @@ about me section start
     #about {
         box-sizing: border-box;
         outline: none;
-        overflow-x: hidden;
+        overflow-x: 0;
     }
 
     .aboutme-container {

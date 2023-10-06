@@ -150,7 +150,7 @@ navbar start
 
 
 @media only screen and (max-width: 768px) {
-    .navbar-container{
+    .navbar-container {
         width: 100%;
     }
 
@@ -281,7 +281,7 @@ h3 {
 }
 
 @media only screen and (max-width: 992px) {
-    .home-container{
+    .home-container {
         padding-top: 150px;
         width: 100%;
     }
@@ -300,11 +300,11 @@ h3 {
 }
 
 @media only screen and (max-width: 1200px) {
-    
-    .home-container{
+
+    .home-container {
         padding-top: 150px;
         width: 100%;
-    }   
+    }
 
     .profile-section img {
         width: 250px;
@@ -318,6 +318,12 @@ h3 {
 
 
 @media only screen and (max-width: 768px) {
+    #home {
+        box-sizing: border-box;
+        outline: none;
+        overflow-x: hidden;
+    }
+
     .home-container {
         display: flex;
         flex-direction: column;
@@ -471,25 +477,31 @@ about me section start
 
 }
 
-@media only screen and (max-width: 992px){
-    .aboutme-container{
+@media only screen and (max-width: 992px) {
+    .aboutme-container {
         margin-right: 10%;
         margin-left: 10%;
     }
-    .profile-section2 img{
+
+    .profile-section2 img {
         width: 250px;
         height: 250px;
     }
 }
 
-@media only screen and (max-width: 1200px){
-    .aboutme-container{
+@media only screen and (max-width: 1200px) {
+    .aboutme-container {
         margin-right: 10%;
         margin-left: 10%;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    #about {
+        box-sizing: border-box;
+        outline: none;
+        overflow-x: hidden;
+    }
 
     .aboutme-container {
         width: 20rem;
@@ -509,9 +521,9 @@ about me section start
 
     #aboutMe {
         margin-top: 1rem;
-    } 
+    }
 
- }
+}
 
 /*.....................................................
 about me section end

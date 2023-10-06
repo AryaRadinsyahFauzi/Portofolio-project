@@ -158,7 +158,6 @@ navbar start
     .burger {
         display: block;
         cursor: pointer;
-        margin-left: 13rem;
     }
 
     .burger .line {

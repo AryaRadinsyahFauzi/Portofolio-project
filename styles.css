@@ -188,7 +188,7 @@ navbar start
 
         background-color: #111;
         display: block;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto 0 auto;
         text-align: center;
         transition: 0.5s;

@@ -511,6 +511,8 @@ about me section start
 
     .aboutme-container {
         width: 20rem;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 
     .img-article {

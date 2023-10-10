@@ -461,7 +461,7 @@ about me section start
 }
 
 /* transition */
-.namaSaya {
+/* .namaSaya {
     position: relative;
     opacity: 0;
     transform: translateX(150px);
@@ -485,7 +485,7 @@ about me section start
     opacity: 1;
     transform: translateX(0);
 
-}
+} */
 
 @media only screen and (max-width: 992px) {
     .aboutme-container {
@@ -658,7 +658,7 @@ Skills
 }
 
 /* transition tools */
-.tools {
+/* .tools {
     position: relative;
     opacity: 0;
     transform: translateX(-150px);
@@ -669,7 +669,7 @@ Skills
     opacity: 1;
     transform: translateX(0);
 
-}
+} */
 
 /* transition tools */
 
@@ -769,7 +769,7 @@ Skills
 }
 
 /* transition tech stack */
-.techStack {
+/* .techStack {
     position: relative;
     opacity: 0;
     transform: translateX(150px);
@@ -780,7 +780,7 @@ Skills
     opacity: 1;
     transform: translateX(0px);
 
-}
+} */
 
 /* transition tech stack */
 /* @media only screen and (max-width: 600px) {

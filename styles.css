@@ -464,7 +464,7 @@ about me section start
 .namaSaya {
     position: relative;
     opacity: 0;
-    transform: translateX(150px);
+    transform: translateX(50px);
     transition: all 1s;
 }
 
@@ -477,7 +477,7 @@ about me section start
 .profile-section2 {
     position: relative;
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(-50px);
     transition: all 1s;
 }
 
@@ -661,7 +661,7 @@ Skills
 .tools {
     position: relative;
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(-10px);
     transition: all 1s;
 }
 
@@ -772,7 +772,7 @@ Skills
 .techStack {
     position: relative;
     opacity: 0;
-    transform: translateX(150px);
+    transform: translateX(10px);
     transition: all 1s;
 }
 

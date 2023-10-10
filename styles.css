@@ -25,7 +25,7 @@ html {
     overflow-x: hidden;
 }
 
-section{
+section {
     width: 100%;
     min-height: 100vh;
 }
@@ -380,7 +380,7 @@ about me section start
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .aboutme-container {
@@ -465,7 +465,7 @@ about me section start
 .namaSaya {
     position: relative;
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(80px);
     transition: all 1s;
 }
 
@@ -478,7 +478,7 @@ about me section start
 .profile-section2 {
     position: relative;
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-80px);
     transition: all 1s;
 }
 
@@ -536,6 +536,33 @@ about me section start
 
     #aboutMe {
         margin-top: 1rem;
+    }
+
+
+    .namaSaya {
+        position: relative;
+        opacity: 0;
+        transform: translateX(50px);
+        transition: all 1s;
+    }
+
+    .namaSaya.active {
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+
+    .profile-section2 {
+        position: relative;
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: all 1s;
+    }
+
+    .profile-section2.poto {
+        opacity: 1;
+        transform: translateX(0);
+
     }
 
 }
@@ -662,7 +689,7 @@ Skills
 .tools {
     position: relative;
     opacity: 0;
-    transform: translateX(-10px);
+    transform: translateX(-80px);
     transition: all 1s;
 }
 
@@ -773,7 +800,7 @@ Skills
 .techStack {
     position: relative;
     opacity: 0;
-    transform: translateX(10px);
+    transform: translateX(80px);
     transition: all 1s;
 }
 
@@ -785,14 +812,15 @@ Skills
 
 /* transition tech stack */
 @media only screen and (max-width: 600px) {
-    .tools{
+    .tools {
         width: 400px;
         height: 350px;
     }
 
-    .techStack{
+    .techStack {
         width: 400px;
-        height: 10px;;
+        height: 10px;
+        ;
     }
 }
 
@@ -864,5 +892,31 @@ Skills
 
     .line-kanan {
         width: 20px;
+    }
+
+    .techStack {
+        position: relative;
+        opacity: 0;
+        transform: translateX(10px);
+        transition: all 1s;
+    }
+    
+    .techStack.techStackRightSide {
+        opacity: 1;
+        transform: translateX(0px);
+    
+    }
+
+    .tools {
+        position: relative;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 1s;
+    }
+    
+    .tools.toolsLeftSide {
+        opacity: 1;
+        transform: translateX(0);
+    
     }
 }

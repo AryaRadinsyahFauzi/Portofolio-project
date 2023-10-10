@@ -21,46 +21,46 @@ transisi home section end
 transisi about section
 .......................................................*/
 // nama saya start
-// window.addEventListener('scroll', hidden2);
-// function hidden2() {
+window.addEventListener('scroll', hidden2);
+function hidden2() {
     
-//     var hiddens = document.querySelectorAll('.namaSaya');
+    var hiddens = document.querySelectorAll('.namaSaya');
 
-//     for(var i=0; i < hiddens.length; i++){
+    for(var i=0; i < hiddens.length; i++){
 
-//         var windowheight = window.innerHeight;
-//         var hiddentop = hiddens[i].getBoundingClientRect().top;
-//         var hiddenpoint = 150;
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
 
-//         if(hiddentop < windowheight - hiddenpoint){
-//             hiddens[i].classList.add('active');
-//         } 
-//         else{
-//             hiddens[i].classList.remove('active');
-//          };
-//     };
-// };
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('active');
+        } 
+        else{
+            hiddens[i].classList.remove('active');
+         };
+    };
+};
 
 // img start
-// window.addEventListener('scroll', hidden);
-// function hidden() {
+window.addEventListener('scroll', hidden);
+function hidden() {
     
-//     var hiddens = document.querySelectorAll('.profile-section2');
+    var hiddens = document.querySelectorAll('.profile-section2');
 
-//     for(var i=0; i < hiddens.length; i++){
+    for(var i=0; i < hiddens.length; i++){
 
-//         var windowheight = window.innerHeight;
-//         var hiddentop = hiddens[i].getBoundingClientRect().top;
-//         var hiddenpoint = 150;
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
 
-//         if(hiddentop < windowheight - hiddenpoint){
-//             hiddens[i].classList.add('poto');
-//         } 
-//         else{
-//             hiddens[i].classList.remove('poto');
-//          };
-//     };
-// };
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('poto');
+        } 
+        else{
+            hiddens[i].classList.remove('poto');
+         };
+    };
+};
 /*.....................................................
 transisi about section
 .......................................................*/
@@ -68,46 +68,46 @@ transisi about section
 /*.....................................................
 transisi skills
 .......................................................*/
-// window.addEventListener('scroll', hidden3);
-// function hidden3() {
+window.addEventListener('scroll', hidden3);
+function hidden3() {
     
-//     var hiddens = document.querySelectorAll('.tools');
+    var hiddens = document.querySelectorAll('.tools');
 
-//     for(var i=0; i < hiddens.length; i++){
+    for(var i=0; i < hiddens.length; i++){
 
-//         var windowheight = window.innerHeight;
-//         var hiddentop = hiddens[i].getBoundingClientRect().top;
-//         var hiddenpoint = 150;
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
 
-//         if(hiddentop < windowheight - hiddenpoint){
-//             hiddens[i].classList.add('toolsLeftSide');
-//         } 
-//         else{
-//             hiddens[i].classList.remove('toolsLeftSide');
-//          };
-//     };
-// };
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('toolsLeftSide');
+        } 
+        else{
+            hiddens[i].classList.remove('toolsLeftSide');
+         };
+    };
+};
 
 // tech stack
-// window.addEventListener('scroll', hidden4);
-// function hidden4() {
+window.addEventListener('scroll', hidden4);
+function hidden4() {
     
-//     var hiddens = document.querySelectorAll('.techStack');
+    var hiddens = document.querySelectorAll('.techStack');
 
-//     for(var i=0; i < hiddens.length; i++){
+    for(var i=0; i < hiddens.length; i++){
 
-//         var windowheight = window.innerHeight;
-//         var hiddentop = hiddens[i].getBoundingClientRect().top;
-//         var hiddenpoint = 150;
+        var windowheight = window.innerHeight;
+        var hiddentop = hiddens[i].getBoundingClientRect().top;
+        var hiddenpoint = 150;
 
-//         if(hiddentop < windowheight - hiddenpoint){
-//             hiddens[i].classList.add('techStackRightSide');
-//         } 
-//         else{
-//             hiddens[i].classList.remove('techStackRightSide');
-//          };
-//     };
-// };
+        if(hiddentop < windowheight - hiddenpoint){
+            hiddens[i].classList.add('techStackRightSide');
+        } 
+        else{
+            hiddens[i].classList.remove('techStackRightSide');
+         };
+    };
+};
 /*.....................................................
 transisi skills
 .......................................................*/

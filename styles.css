@@ -55,29 +55,6 @@ scrollbar start
     background: #555;
 }
 
-
-@media only screen and (max-width: 968px) {
-    ::-webkit-scrollbar {
-        width: 5px;
-    }
-
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: #C69749;
-        border-radius: 10px;
-    }
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #555;
-    }
-}
-
 /*.....................................................
 scrollbar end
 .......................................................*/
@@ -920,3 +897,171 @@ Skills
     
     }
 }
+
+
+/*.....................................................
+Skills
+.......................................................*/
+
+/*.....................................................
+Project start
+.......................................................*/
+#project{
+    display: flex;
+    justify-content: center;
+}
+
+.project-container{
+    width: 67rem;
+    padding: 0 30px 30px 30px;
+}
+
+.tittle-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-project h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.garis-project{
+    width: 100px;
+    height: 3px;
+    background-color: #C69749;
+    flex: 1;
+}
+
+/* project display */
+.project-display{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project1{
+    background-color: #171717;
+    width: 20rem;
+    height: 25rem;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.project1 img{
+    width:290px;
+    height: 150px;
+}
+
+.project1 h2{
+    color: #C69749;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project1 p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tools-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.tools-project p{
+    color: #C69749;
+    margin-bottom: 20px;
+}
+
+/* PROJECT 2 */
+.project2{
+    background-color: #171717;
+    width: 20rem;
+    height: 25rem;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.project2 img{
+    width:290px;
+    height: 150px;
+}
+
+.project2 h2{
+    color: #C69749;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project2 p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tools-project2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.tools-project2 p{
+    color: #C69749;
+    margin-bottom: 20px;
+}
+
+/* PROJECT 3 */
+.project3{
+    background-color: #171717;
+    width: 20rem;
+    height: 25rem;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.project3 img{
+    width:290px;
+    height: 150px;
+}
+
+.project3 h2{
+    color: #C69749;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project3 p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tools-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.tools-project p{
+    color: #C69749;
+    margin-bottom: 20px;
+}
+
+.fa-file{
+    color: #fff;
+}
+
+/*.....................................................
+Project end
+.......................................................*/

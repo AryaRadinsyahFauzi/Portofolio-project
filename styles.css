@@ -939,6 +939,7 @@ Project start
 .project-display{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project1{
@@ -1060,6 +1061,17 @@ Project start
 
 .fa-file{
     color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .project1{
+        margin-bottom: 10px;
+    }
+
+    .project2{
+        margin-bottom: 10px;
+    }
 }
 
 /*.....................................................
